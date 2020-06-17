@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     var  creatdata = [customScroll]()
     let  screenWidth = UIScreen.main.bounds.width
     let screenHeight = UIScreen.main.bounds.height
-   
+    var timer = Timer()
     @IBOutlet weak var Scroll: UIScrollView!
     @IBOutlet weak var page: UIPageControl!
    
@@ -27,6 +27,9 @@ class ViewController: UIViewController {
         page.pageIndicatorTintColor = .red
         page.currentPageIndicatorTintColor =  .gray
         Scroll.showsHorizontalScrollIndicator = false
+        for i in buttonOutlet {
+            i.layer.cornerRadius = 40
+        }
         self.view.backgroundColor = UIColor(red : 1.00 ,green : 0.18 , blue : 0.33 ,alpha: 1.00)
     }
     func setData(){
@@ -47,11 +50,14 @@ class ViewController: UIViewController {
     }
     func setupScroll(_ arrs : [customScroll]){
         for (index , item ) in arrs.enumerated(){
-            item.frame = CGRect(x:  CGFloat(index)*screenWidth , y: 0, width: screenWidth, height: screenHeight )
+            item.frame = CGRect(x:  CGFloat(index)*screenWidth , y: 0, width: screenWidth  , height: screenHeight )
             Scroll.addSubview(item)
         }
         Scroll.contentSize = CGSize(width: screenWidth*CGFloat(arrs.count), height: screenHeight*CGFloat(0.6))
         Scroll.isPagingEnabled = true
+        
+        
+      
     }
  
     @IBAction func SignUpAction(_ sender: Any) {
@@ -65,12 +71,13 @@ class ViewController: UIViewController {
     @IBAction func LoginAction(_ sender: Any) {
         
     }
+   
 }
 extension ViewController : UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let indexpage = round(scrollView.contentOffset.x/screenWidth)
-               page.currentPage = Int(indexpage)
+        page.currentPage = Int(indexpage)
     }
 }
-    
+
 

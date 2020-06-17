@@ -30,6 +30,7 @@
 		541CBBC0248E9C6E0031EBDF /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541CBBBF248E9C6E0031EBDF /* PodcastViewController.swift */; };
 		541CBBC3248E9CF40031EBDF /* podcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541CBBC1248E9CF40031EBDF /* podcastTableViewCell.swift */; };
 		541CBBC4248E9CF40031EBDF /* podcastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541CBBC2248E9CF40031EBDF /* podcastTableViewCell.xib */; };
+		5423E8BC2498BB2400385498 /* menubar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5423E8BB2498BB2400385498 /* menubar.swift */; };
 		543679482490FFA000164CB8 /* DowloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543679472490FFA000164CB8 /* DowloadViewController.swift */; };
 		5436794B24910EDA00164CB8 /* DowloadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436794924910ED900164CB8 /* DowloadTableViewCell.swift */; };
 		5436794C24910EDA00164CB8 /* DowloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5436794A24910ED900164CB8 /* DowloadTableViewCell.xib */; };
@@ -62,6 +63,7 @@
 		541CBBBF248E9C6E0031EBDF /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
 		541CBBC1248E9CF40031EBDF /* podcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastTableViewCell.swift; sourceTree = "<group>"; };
 		541CBBC2248E9CF40031EBDF /* podcastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = podcastTableViewCell.xib; sourceTree = "<group>"; };
+		5423E8BB2498BB2400385498 /* menubar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menubar.swift; sourceTree = "<group>"; };
 		543679472490FFA000164CB8 /* DowloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloadViewController.swift; sourceTree = "<group>"; };
 		5436794924910ED900164CB8 /* DowloadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloadTableViewCell.swift; sourceTree = "<group>"; };
 		5436794A24910ED900164CB8 /* DowloadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DowloadTableViewCell.xib; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				54127B23248A5189006BB72E /* customcolor.swift */,
 				54410363248B255B006B5F2E /* custtomButton.swift */,
 				54410365248B2916006B5F2E /* customLabel.swift */,
+				5423E8BB2498BB2400385498 /* menubar.swift */,
 			);
 			path = customExtension;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				54112FAB24896479004A0506 /* SceneDelegate.swift in Sources */,
 				541A8AAA248C11AF0085900E /* homeViewController.swift in Sources */,
 				541AD7D4248D55A100924E3C /* midCollectionViewCell.swift in Sources */,
+				5423E8BC2498BB2400385498 /* menubar.swift in Sources */,
 				541CBBC0248E9C6E0031EBDF /* PodcastViewController.swift in Sources */,
 				541A8AA7248C0C680085900E /* topCollectionViewCell.swift in Sources */,
 				54112FC324897C34004A0506 /* customScroll.swift in Sources */,

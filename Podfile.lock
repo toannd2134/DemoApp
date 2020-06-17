@@ -1,16 +1,20 @@
 PODS:
+  - Segmentio (4.1)
   - SteviaLayout (4.7.3)
 
 DEPENDENCIES:
+  - Segmentio
   - SteviaLayout
 
 SPEC REPOS:
   trunk:
+    - Segmentio
     - SteviaLayout
 
 SPEC CHECKSUMS:
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
 
-PODFILE CHECKSUM: 376a8619ff58429edd94184123165808dda42387
+PODFILE CHECKSUM: dcf25c539c34801997555c6d5eb25d280a5b522a
 
 COCOAPODS: 1.9.1

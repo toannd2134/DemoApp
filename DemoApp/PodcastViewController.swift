@@ -8,14 +8,16 @@
 //
 
 import UIKit
-
+import Stevia
 class PodcastViewController: UIViewController {
  let User = PodUser()
     let User2 = PodUser2()
    lazy var curientSegment = User
     @IBOutlet weak var subcrice: UIButton!
     @IBOutlet weak var podtable: UITableView!
-    @IBOutlet weak var Segmment: UISegmentedControl!
+   let MenuId = "Menucell"
+    
+    let Menubar : [ String] = ["Podcast" ,"infor"]
     @IBOutlet weak var headView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,18 +29,7 @@ class PodcastViewController: UIViewController {
         subcrice.backgroundColor = UIColor.backgroundColor()
         subcrice.tintColor = .white
         subcrice.layer.cornerRadius = 10
-    }
-
-    @IBAction func segmentAction(_ sender: Any) {
-        switch Segmment.selectedSegmentIndex {
-        case 0:
-            curientSegment = User
-            podtable.reloadData()
-        default:
-            curientSegment = User2
-            podtable.reloadData()
-        }
-    
+       
     }
 }
 extension PodcastViewController : UITableViewDelegate ,UITableViewDataSource {
@@ -60,3 +51,4 @@ extension PodcastViewController : UITableViewDelegate ,UITableViewDataSource {
     
     
 }
+

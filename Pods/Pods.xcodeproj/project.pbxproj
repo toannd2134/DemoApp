@@ -3,90 +3,165 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00DBF136EF636F784E5698521DE0509D /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA0B23DA59A01A3EF7311FCD1F6597 /* Stevia+Notifications.swift */; };
-		0D5B9A528AB015265E53A286E1570BBC /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E8FAA3D18308350970475FE2496D2 /* Stevia+Content.swift */; };
-		21642523F227E758D45A919886BD6B17 /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C8096CA578F85B2625C715D3822E4 /* Stevia+Fill.swift */; };
-		2BDF1A3259B361A2D96E3DE35B6F4355 /* SteviaLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B3872E76BF2A3CAAEE933904695605 /* SteviaLayout-dummy.m */; };
-		2FF7766761D9D7AE4E9F9F6F184B5B0A /* Stevia+Baselines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443446B1A65E77A1C4EC1D6C293B3D2 /* Stevia+Baselines.swift */; };
-		424D5F4CBCDFEB534AD5001E11B4D26D /* SteviaLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D498F080970CAFB7DE38EE18968C25 /* SteviaLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43F160ADD121807198652278449BE055 /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB250C026B31286355CC85005730F617 /* Stevia+Operators.swift */; };
-		46EB11A75164D6B5C463B59F02385F50 /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB28CB08BB07EB6B0113B59557E9B44 /* Stevia+Size.swift */; };
-		4BFD02D9C34FF758ADF0B3421E4D3A5B /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE06BC7C79004F68BC9D542AA9A033 /* Stevia+Alignment.swift */; };
-		4CCBAB72FBA0A2414C16C30EDEECE65C /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FEE10B2682E104328BE1984C4EC891 /* Stevia+Position.swift */; };
-		73F57FA0B1D74A23A5115E3B6FA88DCD /* Pods-DemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B3C29B885EB5228FCFA844A5DB59C0 /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A6C28B3E5018B3CAB0EB5E2173834 /* Stevia+Style.swift */; };
-		81E33894E9D53B0C69BBCAD762D9E61E /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4DB6F97E9C05E95771B63A9B9E594F /* Stevia+Stacks.swift */; };
+		00DBF136EF636F784E5698521DE0509D /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D816621D536AF93235BBC21C69A63 /* Stevia+Notifications.swift */; };
+		0D5B9A528AB015265E53A286E1570BBC /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B522388FBE01312D29B5B7B8CCDD6855 /* Stevia+Content.swift */; };
+		100F9594D714D5D3DCFE06C1109B2EF4 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9B9495968904107D9F8556A0809015 /* BadgeWithCounterViewBigSized.xib */; };
+		13C9B8DBC77BFDF2063802425F1887DB /* Pods-DemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1654ED74EDFA1191B39CBCD064077AAB /* BadgeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571814BB7BE5453C6BBF364E2AAFB75 /* BadgeViewPresenter.swift */; };
+		1F7CFDC001075FFF35EFEC803DF5A3C1 /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816C17220F5D1D4ECB94A1619B697142 /* SegmentioCellWithImageOverLabel.swift */; };
+		21642523F227E758D45A919886BD6B17 /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D6831F375E9B1683E493FCA8D96F20 /* Stevia+Fill.swift */; };
+		24945BC71220EBBF89392802B73D56FB /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BF69FD1D1CC02B0B46FB388C0F7820 /* SegmentioCellWithImage.swift */; };
+		27AF2F8652A1C7DB08A51DB92BFF6596 /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69CA0B4340D9257A75E61DD0B8E3377 /* SegmentioCellWithLabel.swift */; };
+		2A4F25AABE8045E72C419944CE5CD6F9 /* BadgeWithCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC410A686639496B93E2EB0343F88A /* BadgeWithCounterView.swift */; };
+		2BDF1A3259B361A2D96E3DE35B6F4355 /* SteviaLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E86C73BE8C154E81FC6779F24D7C5B5 /* SteviaLayout-dummy.m */; };
+		2FF7766761D9D7AE4E9F9F6F184B5B0A /* Stevia+Baselines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8070CFBD5E4C18743DE24DDB50EC52DE /* Stevia+Baselines.swift */; };
+		318DC95E5202CFE97CCA1918A0A009C3 /* Segmentio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */; };
+		3E05F22A872C1E4A56F5E4AEA8DD22B7 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC9B9495968904107D9F8556A0809015 /* BadgeWithCounterViewBigSized.xib */; };
+		424D5F4CBCDFEB534AD5001E11B4D26D /* SteviaLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 242F313B54D2306B7E69C958FE63D19E /* SteviaLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F160ADD121807198652278449BE055 /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8086B56E22A80B6C8A504648F4F2158A /* Stevia+Operators.swift */; };
+		46EB11A75164D6B5C463B59F02385F50 /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE82427CF835BCFE610026BFCF4415 /* Stevia+Size.swift */; };
+		4BFD02D9C34FF758ADF0B3421E4D3A5B /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F386B3496A4E57E14B6F1C015A4E33 /* Stevia+Alignment.swift */; };
+		4CCBAB72FBA0A2414C16C30EDEECE65C /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B3EA8330250F09FB6BFE7C965A1FD /* Stevia+Position.swift */; };
+		56D57BD955D67E86A78518B0E2D3CC8A /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78ED822C73E20113DA0E41ABD65F660C /* BadgeWithCounterViewStandardSized.xib */; };
+		6191C4B627D175D737098560FB5DD0C2 /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78ED822C73E20113DA0E41ABD65F660C /* BadgeWithCounterViewStandardSized.xib */; };
+		68B371082C8A2C6E4BF5CD67CCB8D6FF /* Segmentio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8810C2ACC89E17202244F312D1F1B /* Segmentio-dummy.m */; };
+		6EF36DC191F1E35EBA5148B7664C8F83 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8600D7823B25447D548026EAC48330 /* RoundImageView.swift */; };
+		74A1B40E75949F979FAB460D2C130F26 /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F57B6087312B524B67200744722713 /* SegmentioCell.swift */; };
+		795B7C8CBC8DDD3D9AD93D6E9A58F050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		79B3C29B885EB5228FCFA844A5DB59C0 /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356A448AC9C6372B2E4217009B32078 /* Stevia+Style.swift */; };
+		81E33894E9D53B0C69BBCAD762D9E61E /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C11AA5C00DA76DECEA44582F9E1C /* Stevia+Stacks.swift */; };
+		8D756945EBF313B83DCF159F4D160C38 /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5D1834F3A357C3D544FAA6D09A4FB /* SegmentioCellWithImageUnderLabel.swift */; };
 		8FBE7D9A8577488197B2279E7912C25A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A0C0C44C5BB2F48A7B2A49E1FC660C35 /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826E2AD8843EFE07098B404C6D049C3 /* Stevia+Percentage.swift */; };
-		AADE42C4163F422BE086BADA328B98A2 /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B5211AB10648CDC22795B3BFC34715 /* Stevia+Hierarchy.swift */; };
-		AB5363879FF2C3B9D3772ED74C84F919 /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C96417097BECC34EDE2986D59CDF3A5 /* Stevia+Center.swift */; };
-		ABF4174C9628772D1310FCB07D92C240 /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC66909DFFB83B976C58B27333914EC /* Stevia+LayoutAnchors.swift */; };
-		B48060604C385CFF12CF5752CF786FDB /* Stevia+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B430CF109040505459A1387B0BA02B0 /* Stevia+Equation.swift */; };
-		B4A8EFAAED496C726FF6A637F7650F8A /* Pods-DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */; };
-		D3E994C14BF413E9A773B0DCCB01AC93 /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC2BD24EFAE5B9E15B17B23144E02D3 /* Stevia+FlexibleMargin.swift */; };
-		D5F6DFA08825B41AA225491CDBD767B4 /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5B466BE30B7DF45EBADDEFEAD77DD /* Stevia+Constraints.swift */; };
-		D63B37769F5A098672374AC8F90AC8EE /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC177C45B4C09E89F78F733BB9D795D9 /* Stevia+DoubleDash.swift */; };
-		EF2ADCB1636861CB8650C9CFF8F992D1 /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F2E6140F8BD2C38C8E4BFDE7D1874 /* Stevia+GetConstraint.swift */; };
-		F1101B8C01999397C68EA837B650A401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		934EDDE97D64636302258F8B1AF85EC6 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4F3D4AA7051B9E26FFD4E2A8A58B23 /* UIView+Appearance.swift */; };
+		A0C0C44C5BB2F48A7B2A49E1FC660C35 /* Stevia+Percentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638DAE182EC3987011BFC532B510BD39 /* Stevia+Percentage.swift */; };
+		A27DADD171B81E7DCEADF08BAED1EF29 /* Pods-DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */; };
+		AADE42C4163F422BE086BADA328B98A2 /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C627B4F88345195BC0144A56A8A19F5 /* Stevia+Hierarchy.swift */; };
+		AB5363879FF2C3B9D3772ED74C84F919 /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB27A1695E78D10BED5C25BA20EDB7 /* Stevia+Center.swift */; };
+		ABF4174C9628772D1310FCB07D92C240 /* Stevia+LayoutAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B713D3A4891E5881390B895DD1E2A8A8 /* Stevia+LayoutAnchors.swift */; };
+		B46B978EEB040255021F72D010C44CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B48060604C385CFF12CF5752CF786FDB /* Stevia+Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9E57A2ACF409581A2B842BCD34253 /* Stevia+Equation.swift */; };
+		B7BB558C335B33DAF19FB5C37F72804D /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B43B05E54B0856C323A08D01422EE2 /* SegmentioCellWithImageBeforeLabel.swift */; };
+		C0C498C71C2C28D8C753F58B37E6BC1A /* Segmentio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED3CADE1CD6E9673620EE1BFB430F80 /* Segmentio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5435EE8A0A752151E652B042FF270AD /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9DE32B4C845F465ABF932C2438D0F3 /* SegmentioOptions.swift */; };
+		D3E994C14BF413E9A773B0DCCB01AC93 /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E0CEA34D317E6E2361BE55852F319 /* Stevia+FlexibleMargin.swift */; };
+		D5F6DFA08825B41AA225491CDBD767B4 /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E40F14B17CB0B4E719B18E5CBD5497 /* Stevia+Constraints.swift */; };
+		D63B37769F5A098672374AC8F90AC8EE /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836EBDEDE43755818DD90AE10EFC5C7F /* Stevia+DoubleDash.swift */; };
+		D76F2A8481DE1828871D364F81EB0243 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E15B2295F0DE249BC295D3A3C5560 /* SegmentioCellWithImageAfterLabel.swift */; };
+		E031AA141F94821F9AA5DEF657E6C2AB /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9F54B8C07330F253AE318448F5716 /* Segmentio.swift */; };
+		EF2ADCB1636861CB8650C9CFF8F992D1 /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD8F5353F44E58C23F809C18E32F5A /* Stevia+GetConstraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0AF14B339954C8987441DAC68C6F3981 /* PBXContainerItemProxy */ = {
+		36D784C8DC850E44FCCF92445C833829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCF7D29EC7396E4018DB1E49BC64FFE;
+			remoteInfo = "Segmentio-Segmentio";
+		};
+		87D075ED3DCF374DA6539B3D2678D48A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF263AB023E40C4315ED4A97C6D7829F;
 			remoteInfo = SteviaLayout;
 		};
+		8C45CA04D2A48D8F510109CF6FAF5F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D946402EAE11D13E8A8CBB3B95D011;
+			remoteInfo = Segmentio;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0826E2AD8843EFE07098B404C6D049C3 /* Stevia+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Percentage.swift"; path = "Source/Stevia+Percentage.swift"; sourceTree = "<group>"; };
-		0CB5B466BE30B7DF45EBADDEFEAD77DD /* Stevia+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Constraints.swift"; path = "Source/Stevia+Constraints.swift"; sourceTree = "<group>"; };
-		101C8096CA578F85B2625C715D3822E4 /* Stevia+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Fill.swift"; path = "Source/Stevia+Fill.swift"; sourceTree = "<group>"; };
-		1B430CF109040505459A1387B0BA02B0 /* Stevia+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Equation.swift"; path = "Source/Stevia+Equation.swift"; sourceTree = "<group>"; };
-		1C96417097BECC34EDE2986D59CDF3A5 /* Stevia+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Center.swift"; path = "Source/Stevia+Center.swift"; sourceTree = "<group>"; };
+		046E0CEA34D317E6E2361BE55852F319 /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+FlexibleMargin.swift"; path = "Source/Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
+		0BD5C11AA5C00DA76DECEA44582F9E1C /* Stevia+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Stacks.swift"; path = "Source/Stevia+Stacks.swift"; sourceTree = "<group>"; };
+		21D6831F375E9B1683E493FCA8D96F20 /* Stevia+Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Fill.swift"; path = "Source/Stevia+Fill.swift"; sourceTree = "<group>"; };
 		22B064629CAE40CF72499DD6D67646C1 /* Pods-DemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		242F313B54D2306B7E69C958FE63D19E /* SteviaLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-umbrella.h"; sourceTree = "<group>"; };
+		25BF69FD1D1CC02B0B46FB388C0F7820 /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImage.swift; path = Segmentio/Source/Cells/SegmentioCellWithImage.swift; sourceTree = "<group>"; };
+		2750EB4C53112CB4D649ADE71E8F6504 /* SteviaLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.debug.xcconfig; sourceTree = "<group>"; };
+		29B43B05E54B0856C323A08D01422EE2 /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageBeforeLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		29F386B3496A4E57E14B6F1C015A4E33 /* Stevia+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Alignment.swift"; path = "Source/Stevia+Alignment.swift"; sourceTree = "<group>"; };
+		2C9DE32B4C845F465ABF932C2438D0F3 /* SegmentioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioOptions.swift; path = Segmentio/Source/SegmentioOptions.swift; sourceTree = "<group>"; };
+		2E86C73BE8C154E81FC6779F24D7C5B5 /* SteviaLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteviaLayout-dummy.m"; sourceTree = "<group>"; };
+		2ECB27A1695E78D10BED5C25BA20EDB7 /* Stevia+Center.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Center.swift"; path = "Source/Stevia+Center.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3443446B1A65E77A1C4EC1D6C293B3D2 /* Stevia+Baselines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Baselines.swift"; path = "Source/Stevia+Baselines.swift"; sourceTree = "<group>"; };
-		3A5A6C28B3E5018B3CAB0EB5E2173834 /* Stevia+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Style.swift"; path = "Source/Stevia+Style.swift"; sourceTree = "<group>"; };
-		42CA0B23DA59A01A3EF7311FCD1F6597 /* Stevia+Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Notifications.swift"; path = "Source/Stevia+Notifications.swift"; sourceTree = "<group>"; };
-		45ED155BC13BB2D7675DBD04AE6D9A1F /* SteviaLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.debug.xcconfig; sourceTree = "<group>"; };
+		350896145BCF8BF05878419B10AC8DFF /* Segmentio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Segmentio.modulemap; sourceTree = "<group>"; };
+		3CD8810C2ACC89E17202244F312D1F1B /* Segmentio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segmentio-dummy.m"; sourceTree = "<group>"; };
+		3F1E15B2295F0DE249BC295D3A3C5560 /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageAfterLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
+		43F57B6087312B524B67200744722713 /* SegmentioCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCell.swift; path = Segmentio/Source/Cells/SegmentioCell.swift; sourceTree = "<group>"; };
+		4AF9E57A2ACF409581A2B842BCD34253 /* Stevia+Equation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Equation.swift"; path = "Source/Stevia+Equation.swift"; sourceTree = "<group>"; };
+		4ED3CADE1CD6E9673620EE1BFB430F80 /* Segmentio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-umbrella.h"; sourceTree = "<group>"; };
 		4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoApp.framework; path = "Pods-DemoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60B5211AB10648CDC22795B3BFC34715 /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Hierarchy.swift"; path = "Source/Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
-		610F2E6140F8BD2C38C8E4BFDE7D1874 /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+GetConstraint.swift"; path = "Source/Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
+		5853B8A22413821B612D82BCF7885B2F /* SteviaLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-prefix.pch"; sourceTree = "<group>"; };
+		5C1510B793E0D9BED3BC183CF403DCDC /* SteviaLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteviaLayout.modulemap; sourceTree = "<group>"; };
+		5D4F3D4AA7051B9E26FFD4E2A8A58B23 /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Appearance.swift"; path = "Segmentio/Source/Extensions/UIView+Appearance.swift"; sourceTree = "<group>"; };
+		62E40F14B17CB0B4E719B18E5CBD5497 /* Stevia+Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Constraints.swift"; path = "Source/Stevia+Constraints.swift"; sourceTree = "<group>"; };
+		638DAE182EC3987011BFC532B510BD39 /* Stevia+Percentage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Percentage.swift"; path = "Source/Stevia+Percentage.swift"; sourceTree = "<group>"; };
 		64F7736E91647FB1D500612961266F46 /* Pods-DemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoApp.modulemap"; sourceTree = "<group>"; };
-		67DE06BC7C79004F68BC9D542AA9A033 /* Stevia+Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Alignment.swift"; path = "Source/Stevia+Alignment.swift"; sourceTree = "<group>"; };
 		699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoApp-umbrella.h"; sourceTree = "<group>"; };
+		70FE82427CF835BCFE610026BFCF4415 /* Stevia+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Size.swift"; path = "Source/Stevia+Size.swift"; sourceTree = "<group>"; };
+		72FCAEB45C7BC84D7296FC368FF438C0 /* SteviaLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SteviaLayout-Info.plist"; sourceTree = "<group>"; };
+		74DC410A686639496B93E2EB0343F88A /* BadgeWithCounterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeWithCounterView.swift; path = Segmentio/Source/Badge/Views/BadgeWithCounterView.swift; sourceTree = "<group>"; };
 		77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoApp-dummy.m"; sourceTree = "<group>"; };
+		78ED822C73E20113DA0E41ABD65F660C /* BadgeWithCounterViewStandardSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewStandardSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib; sourceTree = "<group>"; };
+		7BF9F54B8C07330F253AE318448F5716 /* Segmentio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segmentio.swift; path = Segmentio/Source/Segmentio.swift; sourceTree = "<group>"; };
+		8070CFBD5E4C18743DE24DDB50EC52DE /* Stevia+Baselines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Baselines.swift"; path = "Source/Stevia+Baselines.swift"; sourceTree = "<group>"; };
+		8086B56E22A80B6C8A504648F4F2158A /* Stevia+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Operators.swift"; path = "Source/Stevia+Operators.swift"; sourceTree = "<group>"; };
+		813B3EA8330250F09FB6BFE7C965A1FD /* Stevia+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Position.swift"; path = "Source/Stevia+Position.swift"; sourceTree = "<group>"; };
+		816C17220F5D1D4ECB94A1619B697142 /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageOverLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
+		836EBDEDE43755818DD90AE10EFC5C7F /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+DoubleDash.swift"; path = "Source/Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
+		85AD8F5353F44E58C23F809C18E32F5A /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+GetConstraint.swift"; path = "Source/Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
 		946B1D3001B616EC334839A46A26A4D3 /* Pods-DemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		97816D9E4DA53E96DA27CDA874CEE2E3 /* Segmentio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.release.xcconfig; sourceTree = "<group>"; };
+		9C627B4F88345195BC0144A56A8A19F5 /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Hierarchy.swift"; path = "Source/Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2D498F080970CAFB7DE38EE18968C25 /* SteviaLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-umbrella.h"; sourceTree = "<group>"; };
 		A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
-		AF4DB6F97E9C05E95771B63A9B9E594F /* Stevia+Stacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Stacks.swift"; path = "Source/Stevia+Stacks.swift"; sourceTree = "<group>"; };
-		B943F422EBEC02EFC694893132AC7FBD /* SteviaLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteviaLayout.modulemap; sourceTree = "<group>"; };
-		BAB28CB08BB07EB6B0113B59557E9B44 /* Stevia+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Size.swift"; path = "Source/Stevia+Size.swift"; sourceTree = "<group>"; };
-		BC0E8FAA3D18308350970475FE2496D2 /* Stevia+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Content.swift"; path = "Source/Stevia+Content.swift"; sourceTree = "<group>"; };
-		BCC2BD24EFAE5B9E15B17B23144E02D3 /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+FlexibleMargin.swift"; path = "Source/Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
-		BD04CE2770B7872A955F5C171BCF1180 /* SteviaLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SteviaLayout-Info.plist"; sourceTree = "<group>"; };
+		B0A5D1834F3A357C3D544FAA6D09A4FB /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageUnderLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
+		B356A448AC9C6372B2E4217009B32078 /* Stevia+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Style.swift"; path = "Source/Stevia+Style.swift"; sourceTree = "<group>"; };
+		B522388FBE01312D29B5B7B8CCDD6855 /* Stevia+Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Content.swift"; path = "Source/Stevia+Content.swift"; sourceTree = "<group>"; };
+		B713D3A4891E5881390B895DD1E2A8A8 /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+LayoutAnchors.swift"; path = "Source/Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
+		BC9B9495968904107D9F8556A0809015 /* BadgeWithCounterViewBigSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewBigSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib; sourceTree = "<group>"; };
 		C3CB5CC796F6A53577ADB97FD22E398D /* Pods-DemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9687338385D134D6882C2F8221B2F0A /* SteviaLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteviaLayout-prefix.pch"; sourceTree = "<group>"; };
-		C9CCE5FD29CFBEB0601B7BECD51EF1EA /* SteviaLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.release.xcconfig; sourceTree = "<group>"; };
-		CB250C026B31286355CC85005730F617 /* Stevia+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Operators.swift"; path = "Source/Stevia+Operators.swift"; sourceTree = "<group>"; };
-		D4FEE10B2682E104328BE1984C4EC891 /* Stevia+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Position.swift"; path = "Source/Stevia+Position.swift"; sourceTree = "<group>"; };
+		C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Segmentio.bundle; path = "Segmentio-Segmentio.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69CA0B4340D9257A75E61DD0B8E3377 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
+		D790685081431B9AC6A3F26977D08BB1 /* Segmentio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.debug.xcconfig; sourceTree = "<group>"; };
+		D8000F2C4EE67123EA104BAAADC59A4A /* ResourceBundle-Segmentio-Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Segmentio-Segmentio-Info.plist"; sourceTree = "<group>"; };
 		DE90CE8A0DA0F3A5364FCDD4803AD3EC /* Stevia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stevia.framework; path = SteviaLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFC66909DFFB83B976C58B27333914EC /* Stevia+LayoutAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+LayoutAnchors.swift"; path = "Source/Stevia+LayoutAnchors.swift"; sourceTree = "<group>"; };
+		E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segmentio.framework; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29370E385DA63D6CAFB58EECFC6BFBB /* Pods-DemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-Info.plist"; sourceTree = "<group>"; };
-		E4B3872E76BF2A3CAAEE933904695605 /* SteviaLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteviaLayout-dummy.m"; sourceTree = "<group>"; };
 		E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		FC177C45B4C09E89F78F733BB9D795D9 /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+DoubleDash.swift"; path = "Source/Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
+		EA5D8C13D4CB75F39EE477D851CC9E32 /* Segmentio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-prefix.pch"; sourceTree = "<group>"; };
+		EB8600D7823B25447D548026EAC48330 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = Segmentio/Source/Extensions/RoundImageView.swift; sourceTree = "<group>"; };
+		ED6D816621D536AF93235BBC21C69A63 /* Stevia+Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stevia+Notifications.swift"; path = "Source/Stevia+Notifications.swift"; sourceTree = "<group>"; };
+		F06A9E4767360B61A987C5DE9ED05B84 /* SteviaLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteviaLayout.release.xcconfig; sourceTree = "<group>"; };
+		F571814BB7BE5453C6BBF364E2AAFB75 /* BadgeViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeViewPresenter.swift; path = Segmentio/Source/Badge/BadgeViewPresenter.swift; sourceTree = "<group>"; };
+		FB2D84F7D17C5107E8B37EA9987F7856 /* Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segmentio-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2D65A4D9FDFC0AD7FAF926BB64E335F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795B7C8CBC8DDD3D9AD93D6E9A58F050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574C3EC01C7C0ECD7A896AFD9AD6DD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		716BBFF824368AEFBBA1037EB5E8D44C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,17 +170,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		766886F0EADAC2659C9117763B2D205E /* Frameworks */ = {
+		AAC8C694D52AB4AA8E6B85F53E0EDD1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1101B8C01999397C68EA837B650A401 /* Foundation.framework in Frameworks */,
+				B46B978EEB040255021F72D010C44CAA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		154AE67AFA66625CC7782DD55B1CAAA2 /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				F571814BB7BE5453C6BBF364E2AAFB75 /* BadgeViewPresenter.swift */,
+				74DC410A686639496B93E2EB0343F88A /* BadgeWithCounterView.swift */,
+				EB8600D7823B25447D548026EAC48330 /* RoundImageView.swift */,
+				7BF9F54B8C07330F253AE318448F5716 /* Segmentio.swift */,
+				43F57B6087312B524B67200744722713 /* SegmentioCell.swift */,
+				25BF69FD1D1CC02B0B46FB388C0F7820 /* SegmentioCellWithImage.swift */,
+				3F1E15B2295F0DE249BC295D3A3C5560 /* SegmentioCellWithImageAfterLabel.swift */,
+				29B43B05E54B0856C323A08D01422EE2 /* SegmentioCellWithImageBeforeLabel.swift */,
+				816C17220F5D1D4ECB94A1619B697142 /* SegmentioCellWithImageOverLabel.swift */,
+				B0A5D1834F3A357C3D544FAA6D09A4FB /* SegmentioCellWithImageUnderLabel.swift */,
+				D69CA0B4340D9257A75E61DD0B8E3377 /* SegmentioCellWithLabel.swift */,
+				2C9DE32B4C845F465ABF932C2438D0F3 /* SegmentioOptions.swift */,
+				5D4F3D4AA7051B9E26FFD4E2A8A58B23 /* UIView+Appearance.swift */,
+				BF8FAA451B7F686E2D3A86D94EA30A31 /* Resources */,
+				E2A0330AEF65446AE305B9ECB7CEAE99 /* Support Files */,
+			);
+			name = Segmentio;
+			path = Segmentio;
+			sourceTree = "<group>";
+		};
+		2751C88617AD39C4D0784169378970A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */,
+				C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */,
+				E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */,
+				DE90CE8A0DA0F3A5364FCDD4803AD3EC /* Stevia.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FAA0D6E3070DB298225CB3346404364 /* SteviaLayout */ = {
+			isa = PBXGroup;
+			children = (
+				29F386B3496A4E57E14B6F1C015A4E33 /* Stevia+Alignment.swift */,
+				8070CFBD5E4C18743DE24DDB50EC52DE /* Stevia+Baselines.swift */,
+				2ECB27A1695E78D10BED5C25BA20EDB7 /* Stevia+Center.swift */,
+				62E40F14B17CB0B4E719B18E5CBD5497 /* Stevia+Constraints.swift */,
+				B522388FBE01312D29B5B7B8CCDD6855 /* Stevia+Content.swift */,
+				836EBDEDE43755818DD90AE10EFC5C7F /* Stevia+DoubleDash.swift */,
+				4AF9E57A2ACF409581A2B842BCD34253 /* Stevia+Equation.swift */,
+				21D6831F375E9B1683E493FCA8D96F20 /* Stevia+Fill.swift */,
+				046E0CEA34D317E6E2361BE55852F319 /* Stevia+FlexibleMargin.swift */,
+				85AD8F5353F44E58C23F809C18E32F5A /* Stevia+GetConstraint.swift */,
+				9C627B4F88345195BC0144A56A8A19F5 /* Stevia+Hierarchy.swift */,
+				B713D3A4891E5881390B895DD1E2A8A8 /* Stevia+LayoutAnchors.swift */,
+				ED6D816621D536AF93235BBC21C69A63 /* Stevia+Notifications.swift */,
+				8086B56E22A80B6C8A504648F4F2158A /* Stevia+Operators.swift */,
+				638DAE182EC3987011BFC532B510BD39 /* Stevia+Percentage.swift */,
+				813B3EA8330250F09FB6BFE7C965A1FD /* Stevia+Position.swift */,
+				70FE82427CF835BCFE610026BFCF4415 /* Stevia+Size.swift */,
+				0BD5C11AA5C00DA76DECEA44582F9E1C /* Stevia+Stacks.swift */,
+				B356A448AC9C6372B2E4217009B32078 /* Stevia+Style.swift */,
+				CA669A3A56E253901069D4A5689E198D /* Support Files */,
+			);
+			name = SteviaLayout;
+			path = SteviaLayout;
+			sourceTree = "<group>";
+		};
 		4DF636EA3CB042B100D265CBAEE9CA83 /* Pods-DemoApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,56 +260,13 @@
 			path = "Target Support Files/Pods-DemoApp";
 			sourceTree = "<group>";
 		};
-		613DB741F54827A412351FEA91688B10 /* SteviaLayout */ = {
+		BF8FAA451B7F686E2D3A86D94EA30A31 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67DE06BC7C79004F68BC9D542AA9A033 /* Stevia+Alignment.swift */,
-				3443446B1A65E77A1C4EC1D6C293B3D2 /* Stevia+Baselines.swift */,
-				1C96417097BECC34EDE2986D59CDF3A5 /* Stevia+Center.swift */,
-				0CB5B466BE30B7DF45EBADDEFEAD77DD /* Stevia+Constraints.swift */,
-				BC0E8FAA3D18308350970475FE2496D2 /* Stevia+Content.swift */,
-				FC177C45B4C09E89F78F733BB9D795D9 /* Stevia+DoubleDash.swift */,
-				1B430CF109040505459A1387B0BA02B0 /* Stevia+Equation.swift */,
-				101C8096CA578F85B2625C715D3822E4 /* Stevia+Fill.swift */,
-				BCC2BD24EFAE5B9E15B17B23144E02D3 /* Stevia+FlexibleMargin.swift */,
-				610F2E6140F8BD2C38C8E4BFDE7D1874 /* Stevia+GetConstraint.swift */,
-				60B5211AB10648CDC22795B3BFC34715 /* Stevia+Hierarchy.swift */,
-				DFC66909DFFB83B976C58B27333914EC /* Stevia+LayoutAnchors.swift */,
-				42CA0B23DA59A01A3EF7311FCD1F6597 /* Stevia+Notifications.swift */,
-				CB250C026B31286355CC85005730F617 /* Stevia+Operators.swift */,
-				0826E2AD8843EFE07098B404C6D049C3 /* Stevia+Percentage.swift */,
-				D4FEE10B2682E104328BE1984C4EC891 /* Stevia+Position.swift */,
-				BAB28CB08BB07EB6B0113B59557E9B44 /* Stevia+Size.swift */,
-				AF4DB6F97E9C05E95771B63A9B9E594F /* Stevia+Stacks.swift */,
-				3A5A6C28B3E5018B3CAB0EB5E2173834 /* Stevia+Style.swift */,
-				6CC01CD86C4E20FE0326C50D6C84638C /* Support Files */,
+				BC9B9495968904107D9F8556A0809015 /* BadgeWithCounterViewBigSized.xib */,
+				78ED822C73E20113DA0E41ABD65F660C /* BadgeWithCounterViewStandardSized.xib */,
 			);
-			name = SteviaLayout;
-			path = SteviaLayout;
-			sourceTree = "<group>";
-		};
-		6CC01CD86C4E20FE0326C50D6C84638C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B943F422EBEC02EFC694893132AC7FBD /* SteviaLayout.modulemap */,
-				E4B3872E76BF2A3CAAEE933904695605 /* SteviaLayout-dummy.m */,
-				BD04CE2770B7872A955F5C171BCF1180 /* SteviaLayout-Info.plist */,
-				C9687338385D134D6882C2F8221B2F0A /* SteviaLayout-prefix.pch */,
-				A2D498F080970CAFB7DE38EE18968C25 /* SteviaLayout-umbrella.h */,
-				45ED155BC13BB2D7675DBD04AE6D9A1F /* SteviaLayout.debug.xcconfig */,
-				C9CCE5FD29CFBEB0601B7BECD51EF1EA /* SteviaLayout.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SteviaLayout";
-			sourceTree = "<group>";
-		};
-		92D05985A6ABA0F2495D4DA73DE8A082 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */,
-				DE90CE8A0DA0F3A5364FCDD4803AD3EC /* Stevia.framework */,
-			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -183,6 +277,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C5EE3196A6913685B6BEDE3C580CB46E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154AE67AFA66625CC7782DD55B1CAAA2 /* Segmentio */,
+				3FAA0D6E3070DB298225CB3346404364 /* SteviaLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C8925A89FCC6A7A7E3FC80329E7EED75 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,23 +294,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CA669A3A56E253901069D4A5689E198D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1510B793E0D9BED3BC183CF403DCDC /* SteviaLayout.modulemap */,
+				2E86C73BE8C154E81FC6779F24D7C5B5 /* SteviaLayout-dummy.m */,
+				72FCAEB45C7BC84D7296FC368FF438C0 /* SteviaLayout-Info.plist */,
+				5853B8A22413821B612D82BCF7885B2F /* SteviaLayout-prefix.pch */,
+				242F313B54D2306B7E69C958FE63D19E /* SteviaLayout-umbrella.h */,
+				2750EB4C53112CB4D649ADE71E8F6504 /* SteviaLayout.debug.xcconfig */,
+				F06A9E4767360B61A987C5DE9ED05B84 /* SteviaLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SteviaLayout";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D0084CFB2A907B8F5ECF2535A2C13978 /* Pods */,
-				92D05985A6ABA0F2495D4DA73DE8A082 /* Products */,
+				C5EE3196A6913685B6BEDE3C580CB46E /* Pods */,
+				2751C88617AD39C4D0784169378970A0 /* Products */,
 				C8925A89FCC6A7A7E3FC80329E7EED75 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0084CFB2A907B8F5ECF2535A2C13978 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				613DB741F54827A412351FEA91688B10 /* SteviaLayout */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -218,14 +328,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E2A0330AEF65446AE305B9ECB7CEAE99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8000F2C4EE67123EA104BAAADC59A4A /* ResourceBundle-Segmentio-Segmentio-Info.plist */,
+				350896145BCF8BF05878419B10AC8DFF /* Segmentio.modulemap */,
+				3CD8810C2ACC89E17202244F312D1F1B /* Segmentio-dummy.m */,
+				FB2D84F7D17C5107E8B37EA9987F7856 /* Segmentio-Info.plist */,
+				EA5D8C13D4CB75F39EE477D851CC9E32 /* Segmentio-prefix.pch */,
+				4ED3CADE1CD6E9673620EE1BFB430F80 /* Segmentio-umbrella.h */,
+				D790685081431B9AC6A3F26977D08BB1 /* Segmentio.debug.xcconfig */,
+				97816D9E4DA53E96DA27CDA874CEE2E3 /* Segmentio.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Segmentio";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		95F3E8304EBA528795F4E9AFA2CAA057 /* Headers */ = {
+		13327225B3D5625CF66087B937DED41B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73F57FA0B1D74A23A5115E3B6FA88DCD /* Pods-DemoApp-umbrella.h in Headers */,
+				C0C498C71C2C28D8C753F58B37E6BC1A /* Segmentio-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,27 +363,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFDD7431AB22FB99C3C7644AC023867B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9B8DBC77BFDF2063802425F1887DB /* Pods-DemoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B066F2B40F8F1358F56688AF45C934F6 /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */;
+			buildConfigurationList = 197B64D3367A3DE0C695F2577379639D /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */;
 			buildPhases = (
-				95F3E8304EBA528795F4E9AFA2CAA057 /* Headers */,
-				B610670A5757557E0477EF9F704DE5FC /* Sources */,
-				766886F0EADAC2659C9117763B2D205E /* Frameworks */,
-				EF6164BFC50660704F33D66FF0EFB590 /* Resources */,
+				FFDD7431AB22FB99C3C7644AC023867B /* Headers */,
+				B6B3AB71F012D7A40D52377B49400A42 /* Sources */,
+				AAC8C694D52AB4AA8E6B85F53E0EDD1F /* Frameworks */,
+				164681EFD7F02F25406070E65CACA100 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EE752A2329F212DD635BF344C124139 /* PBXTargetDependency */,
+				C96B457EA26BB471A6E1BA93527699A5 /* PBXTargetDependency */,
+				7BEA98800EFE80353BAFD1668F48791C /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoApp";
 			productName = "Pods-DemoApp";
 			productReference = 4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386DABD1F94AE9567E3CD84A5822397D /* Build configuration list for PBXNativeTarget "Segmentio" */;
+			buildPhases = (
+				13327225B3D5625CF66087B937DED41B /* Headers */,
+				0A0E6F10C63AF3A21A5595AFB2B7EBF7 /* Sources */,
+				2D65A4D9FDFC0AD7FAF926BB64E335F5 /* Frameworks */,
+				4F20B8201AFAF42A070810B3AA19EA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269D6CB25223397F377DDA8AF297284F /* PBXTargetDependency */,
+			);
+			name = Segmentio;
+			productName = Segmentio;
+			productReference = E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE6F1589868E5DA21F0E2527DDB4991 /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */;
+			buildPhases = (
+				4AC650D48CCF4AB4C5FE041C2DF8151C /* Sources */,
+				574C3EC01C7C0ECD7A896AFD9AD6DD20 /* Frameworks */,
+				F1CBF0944786DBB8DFD11B13ACACD7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segmentio-Segmentio";
+			productName = "Segmentio-Segmentio";
+			productReference = C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */ = {
 			isa = PBXNativeTarget;
@@ -287,7 +458,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -295,17 +466,36 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 92D05985A6ABA0F2495D4DA73DE8A082 /* Products */;
+			productRefGroup = 2751C88617AD39C4D0784169378970A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */,
+				37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */,
+				AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */,
 				CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		164681EFD7F02F25406070E65CACA100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F20B8201AFAF42A070810B3AA19EA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E05F22A872C1E4A56F5E4AEA8DD22B7 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				6191C4B627D175D737098560FB5DD0C2 /* BadgeWithCounterViewStandardSized.xib in Resources */,
+				318DC95E5202CFE97CCA1918A0A009C3 /* Segmentio.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		939AB8B2B8B549019D4598DD0D6314D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,21 +503,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF6164BFC50660704F33D66FF0EFB590 /* Resources */ = {
+		F1CBF0944786DBB8DFD11B13ACACD7F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100F9594D714D5D3DCFE06C1109B2EF4 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				56D57BD955D67E86A78518B0E2D3CC8A /* BadgeWithCounterViewStandardSized.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B610670A5757557E0477EF9F704DE5FC /* Sources */ = {
+		0A0E6F10C63AF3A21A5595AFB2B7EBF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A8EFAAED496C726FF6A637F7650F8A /* Pods-DemoApp-dummy.m in Sources */,
+				1654ED74EDFA1191B39CBCD064077AAB /* BadgeViewPresenter.swift in Sources */,
+				2A4F25AABE8045E72C419944CE5CD6F9 /* BadgeWithCounterView.swift in Sources */,
+				6EF36DC191F1E35EBA5148B7664C8F83 /* RoundImageView.swift in Sources */,
+				68B371082C8A2C6E4BF5CD67CCB8D6FF /* Segmentio-dummy.m in Sources */,
+				E031AA141F94821F9AA5DEF657E6C2AB /* Segmentio.swift in Sources */,
+				74A1B40E75949F979FAB460D2C130F26 /* SegmentioCell.swift in Sources */,
+				24945BC71220EBBF89392802B73D56FB /* SegmentioCellWithImage.swift in Sources */,
+				D76F2A8481DE1828871D364F81EB0243 /* SegmentioCellWithImageAfterLabel.swift in Sources */,
+				B7BB558C335B33DAF19FB5C37F72804D /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
+				1F7CFDC001075FFF35EFEC803DF5A3C1 /* SegmentioCellWithImageOverLabel.swift in Sources */,
+				8D756945EBF313B83DCF159F4D160C38 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
+				27AF2F8652A1C7DB08A51DB92BFF6596 /* SegmentioCellWithLabel.swift in Sources */,
+				C5435EE8A0A752151E652B042FF270AD /* SegmentioOptions.swift in Sources */,
+				934EDDE97D64636302258F8B1AF85EC6 /* UIView+Appearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC650D48CCF4AB4C5FE041C2DF8151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B3AB71F012D7A40D52377B49400A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DADD171B81E7DCEADF08BAED1EF29 /* Pods-DemoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,18 +581,83 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9EE752A2329F212DD635BF344C124139 /* PBXTargetDependency */ = {
+		269D6CB25223397F377DDA8AF297284F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Segmentio-Segmentio";
+			target = AFCF7D29EC7396E4018DB1E49BC64FFE /* Segmentio-Segmentio */;
+			targetProxy = 36D784C8DC850E44FCCF92445C833829 /* PBXContainerItemProxy */;
+		};
+		7BEA98800EFE80353BAFD1668F48791C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SteviaLayout;
 			target = CF263AB023E40C4315ED4A97C6D7829F /* SteviaLayout */;
-			targetProxy = 0AF14B339954C8987441DAC68C6F3981 /* PBXContainerItemProxy */;
+			targetProxy = 87D075ED3DCF374DA6539B3D2678D48A /* PBXContainerItemProxy */;
+		};
+		C96B457EA26BB471A6E1BA93527699A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Segmentio;
+			target = 37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */;
+			targetProxy = 8C45CA04D2A48D8F510109CF6FAF5F68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1E21C4AACD5350BC7E5EBE5F4E7785AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97816D9E4DA53E96DA27CDA874CEE2E3 /* Segmentio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Segmentio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3495EBE3DA43289F86289631CA2D631C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97816D9E4DA53E96DA27CDA874CEE2E3 /* Segmentio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		40DEDD2625871E9FB720139C28F4BB47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45ED155BC13BB2D7675DBD04AE6D9A1F /* SteviaLayout.debug.xcconfig */;
+			baseConfigurationReference = 2750EB4C53112CB4D649ADE71E8F6504 /* SteviaLayout.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -407,7 +692,7 @@
 		};
 		5169ECCDF7EE304FC12B205A0DC7CB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9CCE5FD29CFBEB0601B7BECD51EF1EA /* SteviaLayout.release.xcconfig */;
+			baseConfigurationReference = F06A9E4767360B61A987C5DE9ED05B84 /* SteviaLayout.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -440,6 +725,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		737411AC855BDC0BC7EB147FB6F4F496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -505,7 +828,59 @@
 			};
 			name = Debug;
 		};
-		9555510BD43C8CBD5A197DCF05851B83 /* Release */ = {
+		A2C89AC028B9D3748BCAA33032568DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D790685081431B9AC6A3F26977D08BB1 /* Segmentio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Segmentio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				PRODUCT_MODULE_NAME = Segmentio;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B98F472A09AB526F41D84B31E31B283A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D790685081431B9AC6A3F26977D08BB1 /* Segmentio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				IBSC_MODULE = Segmentio;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EBD94E5E10781827536142EA7CD9C5D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */;
 			buildSettings = {
@@ -604,44 +979,6 @@
 			};
 			name = Release;
 		};
-		EFC92D1746A45B00A8B61AF585EB9442 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DemoApp/Pods-DemoApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -650,6 +987,24 @@
 			buildConfigurations = (
 				40DEDD2625871E9FB720139C28F4BB47 /* Debug */,
 				5169ECCDF7EE304FC12B205A0DC7CB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197B64D3367A3DE0C695F2577379639D /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737411AC855BDC0BC7EB147FB6F4F496 /* Debug */,
+				EBD94E5E10781827536142EA7CD9C5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386DABD1F94AE9567E3CD84A5822397D /* Build configuration list for PBXNativeTarget "Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C89AC028B9D3748BCAA33032568DBB /* Debug */,
+				1E21C4AACD5350BC7E5EBE5F4E7785AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -663,11 +1018,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B066F2B40F8F1358F56688AF45C934F6 /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */ = {
+		9DE6F1589868E5DA21F0E2527DDB4991 /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFC92D1746A45B00A8B61AF585EB9442 /* Debug */,
-				9555510BD43C8CBD5A197DCF05851B83 /* Release */,
+				B98F472A09AB526F41D84B31E31B283A /* Debug */,
+				3495EBE3DA43289F86289631CA2D631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

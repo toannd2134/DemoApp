@@ -8,4 +8,5 @@ target 'DemoApp' do
   # Pods for DemoApp
        pod 'SteviaLayout'
 
+       pod 'Segmentio'
 end
