@@ -76,7 +76,7 @@ extension homeViewController : UICollectionViewDelegate,UICollectionViewDataSour
        let width = UIScreen.main.bounds.width
         if collectionView == topColection{
         
-        return CGSize(width: width-20, height: 180)
+            return CGSize(width: width-20, height: topColection.frame.height)
     
         }else if collectionView == midcolectionView{
             return CGSize(width: 200  , height: collectionView.frame.height)

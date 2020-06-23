@@ -30,17 +30,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4eL-Je-hHW">
-                                <rect key="frame" x="10" y="87" width="33" height="33"/>
+                                <rect key="frame" x="10" y="92" width="33" height="33"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6X-bq-gCG">
-                                <rect key="frame" x="62" y="87" width="130" height="33"/>
+                                <rect key="frame" x="62" y="92" width="130" height="33"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconPlay" translatesAutoresizingMaskIntoConstraints="NO" id="Udl-QB-Q7B">
-                                <rect key="frame" x="212" y="87" width="28" height="26.5"/>
+                                <rect key="frame" x="212" y="92" width="28" height="26.5"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -59,7 +59,7 @@
                             <constraint firstAttribute="trailing" secondItem="283-g3-LTQ" secondAttribute="trailing" id="Ze9-Tr-B7S"/>
                             <constraint firstItem="Udl-QB-Q7B" firstAttribute="height" secondItem="o6X-bq-gCG" secondAttribute="height" multiplier="0.80303" id="a75-YP-tUa"/>
                             <constraint firstItem="4eL-Je-hHW" firstAttribute="height" secondItem="fIy-Z8-TOy" secondAttribute="height" multiplier="0.702128" id="apd-Lp-3YT"/>
-                            <constraint firstItem="4eL-Je-hHW" firstAttribute="top" secondItem="fIy-Z8-TOy" secondAttribute="bottom" constant="30" id="dlM-iI-xCU"/>
+                            <constraint firstItem="4eL-Je-hHW" firstAttribute="top" secondItem="fIy-Z8-TOy" secondAttribute="bottom" constant="35" id="dlM-iI-xCU"/>
                             <constraint firstItem="o6X-bq-gCG" firstAttribute="height" secondItem="4eL-Je-hHW" secondAttribute="height" id="i7P-av-EAc"/>
                             <constraint firstItem="o6X-bq-gCG" firstAttribute="leading" secondItem="4eL-Je-hHW" secondAttribute="trailing" constant="19" id="mai-U9-5uf"/>
                             <constraint firstItem="Udl-QB-Q7B" firstAttribute="leading" secondItem="o6X-bq-gCG" secondAttribute="trailing" constant="20" id="tIa-CC-zBL"/>
