@@ -28,7 +28,7 @@
 		541AD7D9248D613C00924E3C /* bottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541AD7D7248D613C00924E3C /* bottomCollectionViewCell.swift */; };
 		541AD7DA248D613C00924E3C /* bottomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541AD7D8248D613C00924E3C /* bottomCollectionViewCell.xib */; };
 		541CBBC0248E9C6E0031EBDF /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541CBBBF248E9C6E0031EBDF /* PodcastViewController.swift */; };
-		541CBBC3248E9CF40031EBDF /* podcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541CBBC1248E9CF40031EBDF /* podcastTableViewCell.swift */; };
+		541CBBC3248E9CF40031EBDF /* PodcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541CBBC1248E9CF40031EBDF /* PodcastTableViewCell.swift */; };
 		541CBBC4248E9CF40031EBDF /* podcastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 541CBBC2248E9CF40031EBDF /* podcastTableViewCell.xib */; };
 		5423E8BC2498BB2400385498 /* menubar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5423E8BB2498BB2400385498 /* menubar.swift */; };
 		543679482490FFA000164CB8 /* DowloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543679472490FFA000164CB8 /* DowloadViewController.swift */; };
@@ -61,7 +61,7 @@
 		541AD7D7248D613C00924E3C /* bottomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomCollectionViewCell.swift; sourceTree = "<group>"; };
 		541AD7D8248D613C00924E3C /* bottomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bottomCollectionViewCell.xib; sourceTree = "<group>"; };
 		541CBBBF248E9C6E0031EBDF /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
-		541CBBC1248E9CF40031EBDF /* podcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastTableViewCell.swift; sourceTree = "<group>"; };
+		541CBBC1248E9CF40031EBDF /* PodcastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastTableViewCell.swift; sourceTree = "<group>"; };
 		541CBBC2248E9CF40031EBDF /* podcastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = podcastTableViewCell.xib; sourceTree = "<group>"; };
 		5423E8BB2498BB2400385498 /* menubar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menubar.swift; sourceTree = "<group>"; };
 		543679472490FFA000164CB8 /* DowloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloadViewController.swift; sourceTree = "<group>"; };
@@ -115,25 +115,17 @@
 		54112FA724896479004A0506 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				541D7C70249A052E0005DA2B /* modal */,
+				541D7C6F249A04DA0005DA2B /* controller */,
 				54112FA824896479004A0506 /* AppDelegate.swift */,
 				54112FAA24896479004A0506 /* SceneDelegate.swift */,
-				54112FAC24896479004A0506 /* ViewController.swift */,
 				54112FAE24896479004A0506 /* Main.storyboard */,
-				543679472490FFA000164CB8 /* DowloadViewController.swift */,
-				54127B1F248A490C006BB72E /* SignUPViewController.swift */,
-				541CBBC1248E9CF40031EBDF /* podcastTableViewCell.swift */,
-				541CBBC2248E9CF40031EBDF /* podcastTableViewCell.xib */,
-				541CBBBF248E9C6E0031EBDF /* PodcastViewController.swift */,
-				541A8AA9248C11AF0085900E /* homeViewController.swift */,
-				541A8AAB248C12A10085900E /* datat.swift */,
-				5436794924910ED900164CB8 /* DowloadTableViewCell.swift */,
 				5436794A24910ED900164CB8 /* DowloadTableViewCell.xib */,
-				541AD7D7248D613C00924E3C /* bottomCollectionViewCell.swift */,
 				541AD7D8248D613C00924E3C /* bottomCollectionViewCell.xib */,
-				541AD7D2248D55A100924E3C /* midCollectionViewCell.swift */,
-				541A8AA5248C0C680085900E /* topCollectionViewCell.swift */,
+				541CBBC2248E9CF40031EBDF /* podcastTableViewCell.xib */,
 				541AD7D3248D55A100924E3C /* midCollectionViewCell.xib */,
 				541A8AA6248C0C680085900E /* topCollectionViewCell.xib */,
+				541D7C6E249A04BF0005DA2B /* customcell */,
 				54410362248B2524006B5F2E /* customExtension */,
 				54112FC424897C41004A0506 /* customScroll.xib */,
 				54112FB12489647F004A0506 /* Assets.xcassets */,
@@ -141,6 +133,38 @@
 				54112FB62489647F004A0506 /* Info.plist */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		541D7C6E249A04BF0005DA2B /* customcell */ = {
+			isa = PBXGroup;
+			children = (
+				541CBBC1248E9CF40031EBDF /* PodcastTableViewCell.swift */,
+				541A8AA5248C0C680085900E /* topCollectionViewCell.swift */,
+				5436794924910ED900164CB8 /* DowloadTableViewCell.swift */,
+				541AD7D7248D613C00924E3C /* bottomCollectionViewCell.swift */,
+				541AD7D2248D55A100924E3C /* midCollectionViewCell.swift */,
+			);
+			path = customcell;
+			sourceTree = "<group>";
+		};
+		541D7C6F249A04DA0005DA2B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				543679472490FFA000164CB8 /* DowloadViewController.swift */,
+				541CBBBF248E9C6E0031EBDF /* PodcastViewController.swift */,
+				541A8AA9248C11AF0085900E /* homeViewController.swift */,
+				54112FAC24896479004A0506 /* ViewController.swift */,
+				54127B1F248A490C006BB72E /* SignUPViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		541D7C70249A052E0005DA2B /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				541A8AAB248C12A10085900E /* datat.swift */,
+			);
+			path = modal;
 			sourceTree = "<group>";
 		};
 		54410362248B2524006B5F2E /* customExtension */ = {
@@ -293,7 +317,7 @@
 				543679482490FFA000164CB8 /* DowloadViewController.swift in Sources */,
 				54127B20248A490C006BB72E /* SignUPViewController.swift in Sources */,
 				541A8AAC248C12A10085900E /* datat.swift in Sources */,
-				541CBBC3248E9CF40031EBDF /* podcastTableViewCell.swift in Sources */,
+				541CBBC3248E9CF40031EBDF /* PodcastTableViewCell.swift in Sources */,
 				54112FAD24896479004A0506 /* ViewController.swift in Sources */,
 				54112FA924896479004A0506 /* AppDelegate.swift in Sources */,
 				5436794B24910EDA00164CB8 /* DowloadTableViewCell.swift in Sources */,

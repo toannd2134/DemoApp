@@ -8,7 +8,7 @@
 
 import UIKit
 
-class podcastTableViewCell: UITableViewCell {
+class PodcastTableViewCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
     
     @IBOutlet weak var timePodcast: UILabel!

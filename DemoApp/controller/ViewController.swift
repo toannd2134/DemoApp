@@ -13,23 +13,28 @@ class ViewController: UIViewController {
     let  screenWidth = UIScreen.main.bounds.width
     let screenHeight = UIScreen.main.bounds.height
     var timer = Timer()
-    @IBOutlet weak var Scroll: UIScrollView!
+    @IBOutlet weak var scroll: UIScrollView!
     @IBOutlet weak var page: UIPageControl!
    
+    @IBOutlet weak var signupButton: UIButton!
     @IBOutlet var buttonOutlet: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
        setData()
-        Scroll.delegate = self
+        scroll.delegate = self
         setupScroll(creatdata)
         page.numberOfPages = creatdata.count
         page.currentPage = 0
         page.pageIndicatorTintColor = .red
         page.currentPageIndicatorTintColor =  .gray
-        Scroll.showsHorizontalScrollIndicator = false
+        scroll.showsHorizontalScrollIndicator = false
         for i in buttonOutlet {
             i.layer.cornerRadius = 40
         }
+        
+        signupButton.layer.cornerRadius = 10
+        signupButton.setTitle("Sign Up", for: .normal)
+        signupButton.setTitleColor(UIColor.backgroundColor(), for: .normal)
         self.view.backgroundColor = UIColor(red : 1.00 ,green : 0.18 , blue : 0.33 ,alpha: 1.00)
     }
     func setData(){
@@ -51,10 +56,10 @@ class ViewController: UIViewController {
     func setupScroll(_ arrs : [customScroll]){
         for (index , item ) in arrs.enumerated(){
             item.frame = CGRect(x:  CGFloat(index)*screenWidth , y: 0, width: screenWidth  , height: screenHeight )
-            Scroll.addSubview(item)
+            scroll.addSubview(item)
         }
-        Scroll.contentSize = CGSize(width: screenWidth*CGFloat(arrs.count), height: screenHeight*CGFloat(0.6))
-        Scroll.isPagingEnabled = true
+        scroll.contentSize = CGSize(width: screenWidth*CGFloat(arrs.count), height: screenHeight*CGFloat(0.6))
+        scroll.isPagingEnabled = true
         
         
       

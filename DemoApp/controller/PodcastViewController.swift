@@ -42,7 +42,7 @@ extension PodcastViewController : UITableViewDelegate ,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "podcell", for: indexPath) as! podcastTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "podcell", for: indexPath) as! PodcastTableViewCell
         cell.name.text = curientSegment[indexPath.row].name
         cell.datPodcast.text = curientSegment[indexPath.row].Date
         cell.timePodcast.text = curientSegment[indexPath.row].time

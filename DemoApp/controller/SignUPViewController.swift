@@ -9,25 +9,25 @@
 import UIKit
 import Stevia
 class SignUPViewController: UIViewController {
-    var EmailTexField : customTextField = {
+    var emailTexField : customTextField = {
         let textFiled = customTextField("Email", UIColor.clear, UIColor.white, UIColor.plachodderColor(), CGRect.zero)
         
         
         return textFiled
     }()
-    var reenterTexFiled : customTextField = {
+    var reEnterTexFiled : customTextField = {
         
         let textFiled = customTextField("Re-enter e-mail", UIColor.clear, UIColor.white, UIColor.plachodderColor(), CGRect.zero)
         
         return textFiled
     }()
-    var PasswordTextFiled : customTextField = {
+    var passwordTextFiled : customTextField = {
         
         let textFiled = customTextField("Choose password", UIColor.clear, UIColor.white, UIColor.plachodderColor(), CGRect.zero)
         textFiled.isSecureTextEntry = true
         return textFiled
     }()
-    var BirthTextFiled : customTextField = {
+    var birthTextFiled : customTextField = {
         
         let textFiled = customTextField("Date of birth", UIColor.clear, UIColor.white, UIColor.plachodderColor(), CGRect.zero)
         
@@ -43,13 +43,13 @@ class SignUPViewController: UIViewController {
         label.textAlignment = .center
         return label
     }()
-    var SignUpButton : CustomButton = {
+    var signUpButton : CustomButton = {
         let button = CustomButton("Sign Up", UIColor.white, CGRect.zero, UIColor.backgroundColor())
         
         button.addTarget(self, action: #selector(pushSignUp), for: .touchUpInside)
         return button
     }()
-    var FaceBookButton : CustomButton = {
+    var faceBookButton : CustomButton = {
         let button = CustomButton("Sign in with FaceBook", UIColor.FacebookColor(), CGRect.zero, UIColor.white)
         
         return button
@@ -61,18 +61,18 @@ class SignUPViewController: UIViewController {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(willShowKeyBroad(_:)), name: UIResponder.keyboardDidShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(willHidenKeyBroad(_:)), name: UIResponder.keyboardDidShowNotification, object: nil)
-        EmailTexField.delegate = self
-        reenterTexFiled.delegate = self
-        PasswordTextFiled.delegate = self
-        BirthTextFiled.delegate = self
-        view.sv([EmailTexField,
-                 reenterTexFiled,
-                 PasswordTextFiled,
-                 BirthTextFiled,
+        emailTexField.delegate = self
+        reEnterTexFiled.delegate = self
+        passwordTextFiled.delegate = self
+        birthTextFiled.delegate = self
+        view.sv([emailTexField,
+                 reEnterTexFiled,
+                 passwordTextFiled,
+                 birthTextFiled,
                  noteLabel,
-                 SignUpButton,
+                 signUpButton,
                  orlabel,
-                 FaceBookButton])
+                 faceBookButton])
         setup()
         creatDatePicker()
         
@@ -104,8 +104,8 @@ class SignUPViewController: UIViewController {
         toolbar.sizeToFit()
         let doneBt = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(addDate))
         toolbar.setItems([doneBt], animated: true)
-        BirthTextFiled.inputAccessoryView = toolbar
-        BirthTextFiled.inputView = datePicker
+        birthTextFiled.inputAccessoryView = toolbar
+        birthTextFiled.inputView = datePicker
         datePicker.datePickerMode = .date
     }
     @objc func addDate(){
@@ -114,39 +114,39 @@ class SignUPViewController: UIViewController {
         formatDate.timeStyle = .none
         formatDate.dateFormat = "dd/MM/yyyy"
         
-        BirthTextFiled.text = "\(formatDate.string(from: datePicker.date))"
+        birthTextFiled.text = "\(formatDate.string(from: datePicker.date))"
         self.view.endEditing(true)
     }
     func setup(){
         view.layout(
             250,
-            |-25-EmailTexField-25-|,
+            |-25-emailTexField-25-|,
             30,
-            |-20-reenterTexFiled-25-|,
+            |-20-reEnterTexFiled-25-|,
             30,
-            |-20-PasswordTextFiled-25-|,
+            |-20-passwordTextFiled-25-|,
             30,
-            |-20-BirthTextFiled-25-|,
+            |-20-birthTextFiled-25-|,
             10,
             |-30-noteLabel-30-|,
             20,
-            |-30-SignUpButton-30-| ~ 50,
+            |-30-signUpButton-30-| ~ 50,
             10,
             |-30-orlabel-30-| ~ 10,
             10,
-            |-30-FaceBookButton-30-| ~ 50
+            |-30-faceBookButton-30-| ~ 50
         )
     }
 }
 extension SignUPViewController : UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         switch textField {
-        case EmailTexField :
-            reenterTexFiled.becomeFirstResponder()
-        case reenterTexFiled :
-            PasswordTextFiled.becomeFirstResponder()
-        case PasswordTextFiled :
-            BirthTextFiled.becomeFirstResponder()
+        case emailTexField :
+            reEnterTexFiled.becomeFirstResponder()
+        case reEnterTexFiled :
+            passwordTextFiled.becomeFirstResponder()
+        case passwordTextFiled :
+            birthTextFiled.becomeFirstResponder()
         default:
             textField.becomeFirstResponder()
         }
@@ -167,11 +167,11 @@ extension SignUPViewController : UITextFieldDelegate {
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        if textField == EmailTexField {
+        if textField == emailTexField {
             textField.text = ""
-        }else if textField == reenterTexFiled {
+        }else if textField == reEnterTexFiled {
             textField.text = ""
-        }else if textField == PasswordTextFiled {
+        }else if textField == passwordTextFiled {
             textField.text = ""
         }else {
             textField.text = ""

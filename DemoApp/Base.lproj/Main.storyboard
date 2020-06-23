@@ -25,7 +25,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Gh-Lb-vDc">
                                 <rect key="frame" x="71" y="735" width="272" height="47"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="button1">
+                                <state key="normal">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="small">
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -68,8 +68,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="Scroll" destination="maN-6T-zQc" id="eJa-Gi-tQz"/>
+                        <outlet property="SignupButton" destination="8Gh-Lb-vDc" id="oDg-N0-pPa"/>
                         <outlet property="page" destination="n4G-ZD-ALC" id="rnE-CS-dON"/>
+                        <outlet property="scroll" destination="maN-6T-zQc" id="eJa-Gi-tQz"/>
                         <outletCollection property="buttonOutlet" destination="6iv-38-8ZP" collectionClass="NSMutableArray" id="iKR-tP-UYr"/>
                     </connections>
                 </viewController>
@@ -419,7 +420,6 @@
         <image name="Group3" width="375" height="812"/>
         <image name="LoginButton" width="311" height="48"/>
         <image name="bag" width="30" height="30"/>
-        <image name="button1" width="311" height="48"/>
         <image name="home1" width="24" height="24"/>
         <image name="png-1" width="193" height="200"/>
         <image name="slinder" width="24" height="24"/>
