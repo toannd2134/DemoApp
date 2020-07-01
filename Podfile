@@ -9,4 +9,5 @@ target 'DemoApp' do
        pod 'SteviaLayout'
 
        pod 'Segmentio'
+       pod 'PageControls/FilledPageControl'
 end

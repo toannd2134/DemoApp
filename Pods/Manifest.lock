@@ -1,20 +1,24 @@
 PODS:
+  - PageControls/FilledPageControl (1.0.1)
   - Segmentio (4.1)
   - SteviaLayout (4.7.3)
 
 DEPENDENCIES:
+  - PageControls/FilledPageControl
   - Segmentio
   - SteviaLayout
 
 SPEC REPOS:
   trunk:
+    - PageControls
     - Segmentio
     - SteviaLayout
 
 SPEC CHECKSUMS:
+  PageControls: fc2436c93e79419521a6de5d46d84722593e2949
   Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
   SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
 
-PODFILE CHECKSUM: dcf25c539c34801997555c6d5eb25d280a5b522a
+PODFILE CHECKSUM: d4125b6c6a10ebc2508a8b0d96da21731c4f1985
 
 COCOAPODS: 1.9.1

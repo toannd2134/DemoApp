@@ -15,18 +15,16 @@ class ViewController: UIViewController {
     var timer = Timer()
     @IBOutlet weak var scroll: UIScrollView!
     @IBOutlet weak var page: UIPageControl!
-   
+    
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet var buttonOutlet: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
-       setData()
+        setData()
         scroll.delegate = self
         setupScroll(creatdata)
         page.numberOfPages = creatdata.count
         page.currentPage = 0
-        page.pageIndicatorTintColor = .red
-        page.currentPageIndicatorTintColor =  .gray
         scroll.showsHorizontalScrollIndicator = false
         for i in buttonOutlet {
             i.layer.cornerRadius = 40
@@ -37,6 +35,11 @@ class ViewController: UIViewController {
         signupButton.setTitleColor(UIColor.backgroundColor(), for: .normal)
         self.view.backgroundColor = UIColor(red : 1.00 ,green : 0.18 , blue : 0.33 ,alpha: 1.00)
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        page.customPageControl(dotFillColor: .backgroundColor(), dotBorderColor: .white, dotBorderWidth: 1)
+    }
+    
     func setData(){
         let data = Bundle.main.loadNibNamed("customScroll", owner: self, options: nil)?.first as! customScroll
         data.toplabel.text = "Episode seach"
@@ -62,9 +65,9 @@ class ViewController: UIViewController {
         scroll.isPagingEnabled = true
         
         
-      
+        
     }
- 
+    
     @IBAction func SignUpAction(_ sender: Any) {
         let mainStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "signUP")
@@ -76,13 +79,35 @@ class ViewController: UIViewController {
     @IBAction func LoginAction(_ sender: Any) {
         
     }
-   
+    
 }
 extension ViewController : UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let indexpage = round(scrollView.contentOffset.x/screenWidth)
         page.currentPage = Int(indexpage)
+        print("currentPage: \(page.currentPage)")
+        page.customPageControl(dotFillColor: .backgroundColor(), dotBorderColor: .white, dotBorderWidth: 1)
     }
 }
 
+
+
+extension UIPageControl {
+    
+    func customPageControl(dotFillColor:UIColor, dotBorderColor:UIColor, dotBorderWidth:CGFloat) {
+        for (pageIndex, dotView) in self.subviews.enumerated() {
+            print("pageIndex \(pageIndex)")
+            if self.currentPage == pageIndex {
+                dotView.backgroundColor = .white
+                dotView.layer.cornerRadius = dotView.frame.size.height / 2
+            }else{
+                dotView.backgroundColor = .clear
+                dotView.layer.cornerRadius = dotView.frame.size.height / 2
+                dotView.layer.borderColor = dotBorderColor.cgColor
+                dotView.layer.borderWidth = dotBorderWidth
+            }
+        }
+    }
+    
+}
 

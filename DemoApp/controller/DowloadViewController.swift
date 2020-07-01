@@ -10,7 +10,7 @@ import UIKit
 
 class DowloadViewController: UIViewController {
     
-    let user = DowloadUser()
+    var user = DowloadUser()
    
     @IBOutlet weak var dowload: UITableView!
     override func viewDidLoad() {
@@ -41,6 +41,14 @@ extension DowloadViewController : UITableViewDelegate  , UITableViewDataSource {
         cell.noteDowload.text = user[indexPath.row].note
         cell.ttimeDowload.text  = user[indexPath.row].time
         return cell
+        
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+// 
+        
+        
+       
         
     }
     
